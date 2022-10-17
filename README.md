@@ -1,3 +1,2 @@
-Originally (shamelessly) plagiarised from:
-
-http://cs.stanford.edu/~rpryzant/
+## About
+https://yuxuehui.github.io/Homepage/
