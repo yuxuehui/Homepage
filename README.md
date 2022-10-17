@@ -1,2 +1,3 @@
-# xuehuiyu.github.io
-Xuehui Yu
+Originally (shamelessly) plagiarised from:
+
+http://cs.stanford.edu/~rpryzant/
