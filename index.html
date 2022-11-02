@@ -1,0 +1,358 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>	  
+    <!-- Global Site Tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-107224691-1"></script>
+    <script>
+       window.dataLayer = window.dataLayer || [];
+       function gtag(){dataLayer.push(arguments)};
+       gtag('js', new Date());
+
+       gtag('config', 'UA-107224691-1');
+    </script>
+
+    <title>Xuehui Yu</title>
+	  
+    <!-- Credit to Reid Pryzant from Stanford for the website design... I largely plagiarized his work! -->
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge"><![endif]-->
+    <script type="text/javascript" src="https://use.fontawesome.com/981e0eb420.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link href='https://fonts.googleapis.com/css?family=Lato:300,400,700,900%7COpen+Sans:400,600' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="./static/style.css" />
+
+    <link rel="shortcut icon" href="./img/wi.ico" >
+</head>
+
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+    	      <img src="img/yuxuehui.jpg" alt="JPH :)" class="headshot">
+    	      <br/>
+                    <h1>Xuehui Yu
+                        <small>
+                            <a>yuxuehui0302@gmail.com </a> <span class="sep">|</span>
+                            <span style="display: inline-block; white-space: nowrap;">
+                                <a href="https://scholar.google.com/citations?user=mUZEUNoAAAAJ&amp;hl=en&amp;oi=ao/"><i class="fa fa-graduation-cap" aria-hidden="true"></i></a> <span class="sep"></span>|</span>
+                                <a href="https://github.com/yuxuehui"><i class="fa fa-git"></i></a> <span class="sep">
+                            </span>
+                        </small>
+                    </h1>
+            </div>
+        </div>
+        <hr/>
+        <div class="row">
+            <div class="col-sm-2"><h5>About</h5></div>
+            <div class="col-sm-10">
+
+I am a fourth year DPhil student at Harbin Institute of Technology, where I am part of <a href="http://www.hit.edu.cn/" target="_blank" rel="nofollow">WI (Web Intelligence) Lab</a>, advised by <a href="https://scholar.google.com/citations?user=eApBCQYAAAAJ&hl=en" target="_blank" rel="nofollow">Yi Guan</a> and <a href="https://scholar.google.com/citations?user=mu6JYMAAAAAJ&hl=en" target="_blank" rel="nofollow">Jingchi Jiang</a>. My current research interest includes reinforcement learning, medical informatics, and causal inference. 
+</br></br>
+My long-term research goal is to develop a novel data-driven decision intelligence for real-world deployment, including theory, algorithm, and system. We believe that in the real-world application, the RL agents need to model how the world works first and learn how to make decisions second.
+</br></br>
+In learning <b>environment dynamics</b>, I have done two researches: 
+<ol>
+    <li>Environment dynamics based on <b>cascading theory</b>, which models the physiological domino effect. </br></br>
+        We proposed a Percolation-based Diagnosis Framework (PercolationDF) [<a href="http://www.aimspress.com/aimspress-data/mbe/2022/6/PDF/mbe-19-06-273.pdf" target="_blank" rel="nofollow">1</a>] for medical diagnosis and an Interpretable Deep Cascading Framework (DECAF) [<a href="" target="_blank" rel="nofollow">2</a>]  for ICU mortality prediction.
+    </li>
+    <li> <b>Hidden-parameter block causal graph dynamics (Hip-BCGDs)</b>, which models environment dynamics with causal prompting from pre-trained models. </br></br>
+    With the help of Hip-BCGDs, we proposed a novel model-based offline reinforcement learning framework -- Causal Prompting Reinforcement Learning (CPRL) [<a href="" target="_blank" rel="nofollow">3</a>] , which is suitable for highly suboptimal and diverse offline datasets. CPRL is validated in simulation-based glucose-insulin systems and real-world offline datasets from Dnurse APP.
+    </li>
+</ol>
+
+</br></br>
+In <b>decision making</b>: 
+<ol>
+    <li> We believe that using real-time collected data to generalize in online testing quickly is an essential capability of RL Agents. We proposed a meta-reinforcement learning framework -- Active Reinforcement Learning with Personalized Embeddings (ARLPE) [<a href="" target="_blank" rel="nofollow">4</a>].
+    </li>
+    <li> We believe that a policy with a skill reuse strategy is an excellent idea to achieve the generalization of RL Agents. We propose a Causal Coupled Mechanism (CCM) [<a href="https://arxiv.org/pdf/2209.07368.pdf" target="_blank" rel="nofollow">5</a>] to train a single policy to reuse skills and reach multiple goals instead of training policies for each task separately. CCM is validated in synthetic systems and a real-world biological regulatory system.
+    </li>
+    <li>We are researching Counterfactual Imagination-Augmented Agents, which aims to avoid unnecessary exploration.
+    </li>
+</ol>
+
+</br></br>
+
+        </div>
+        </div>
+        <hr/>
+
+        <!-- <div class="row">
+            <div class="col-sm-2">
+                <h5>News</h5>
+            </div>
+            <div class="col-sm-10">
+          
+
+                <table class="borderless">
+                    <tr>
+                        <td>
+                            <div class="large-12 columns">
+                                <ul>
+                                <li><b>[6/2022] </b> Our new work on <a href="https://arxiv.org/abs/2206.04779" target="_blank" rel="nofollow">offline RL from pixels</a> won an Outstanding Paper Award at <a href="https://sites.google.com/view/l-dod-rss2022" target="_blank" rel="nofollow">L-DOD</a>. 
+                                </li>
+                                </br> 
+                                <li><b>[5/2022] </b> Two papers accepted to ICML 2022... see you in Baltimore :) 
+                                </li>
+                                </br> 
+                                <li><b>[4/2022] </b> We are organizing the first workshop on Agent Learning in Open-Endedness at ICLR 2022, <a href="https://sites.google.com/view/aloe2022" target="_blank" rel="nofollow">come along</a>! 
+                                </li>
+                                </br> 
+                                <li><b>[3/2022] </b> New work on multi-task RL was given an <a href="http://aistats.org/aistats2022/awards.html" target="_blank" rel="nofollow">honorable mention</a> for best paper at AISTATS!
+                                </li>
+                                </br> 
+                                <li><b>[3/2022] </b> We released ACCEL, a new algorithm for open-ended learning, <a href="https://accelagent.github.io/" target="_blank" rel="nofollow">check it out</a>! 
+                                </li>
+                                </br> 
+                                <li><b>[9/2021] </b> Three papers accepted to NeurIPS 2021! I'm grateful to work with such great people :) 
+                                </li>
+                                </br> 
+                                <li><b>[6/2021]</b> I am interning at Facebook AI Research with Tim Rocktäschel and Ed Grefenstette. 
+                                </li>
+                                </br> 
+                                <li><b>[11/2020]</b> PB2 was included into Ray Tune! Check out the <a href="https://www.anyscale.com/blog/population-based-bandits" target="_blank" rel="nofollow">blog post</a>. 
+                                </li>
+                                </br> 
+                                <li><b>[9/2020]</b> Three papers accepted to NeurIPS 2020. Thank you to my amazing collaborators!! 
+                                </li>
+                                </br>  
+                                <li><b>[6/2020]</b> Three papers accepted to the main conference at ICML 2020.
+                                </li>
+                                </li>
+                                </br>                                  
+                                <li><b>[2/2020]</b> New work on model-based RL, <i> Ready Policy One</i>, was covered by VentureBeat (<a href="https://venturebeat.com/2020/02/11/researchers-develop-technique-to-increase-sample-efficiency-in-reinforcement-learning/" target="_blank" rel="nofollow">here</a>). </li>
+                                </ul>
+                            </div>
+                        </td>
+                    </tr>
+                </table> 
+   
+            </div>
+            </div>
+        <hr/> -->
+
+        <div class="row">
+            <div class="col-sm-2">
+                <h5>Published Papers</h5>
+            </div>
+            <div class="col-sm-10">
+
+                <table class="borderless">
+                    <tr>
+                        <td>
+                            <div class="large-1 columns">
+                                    <img src="img/pubs/CCM.png"  width="100">
+                            </div>
+                        </td>
+                        <td>
+                            <div class="large-12 columns", style="margin: 20px">
+                                <b>Causal Coupled Mechanisms: A Control Method with Cooperation and Competition for Complex System </b>  </br> 
+                                <b>Xuehui Yu</b>, Jingchi Jiang, Xinmiao Yu, Yi Guan*,Xue Li </br> 
+                                <i>IEEE International Conference on Bioinformatics & Biomedicine 2023. </i> </br>
+                                <!-- (<a href="https://arxiv.org/abs/2203.01302" target="_blank" rel="nofollow">Paper</a>) (<a href="https://accelagent.github.io/" target="_blank" rel="nofollow">Website</a>) (<a href="https://www.youtube.com/watch?v=povBDxUn1VQ" target="_blank" rel="nofollow">Paper Review</a>) (<a href="https://www.youtube.com/watch?v=16BsJI5I-Yw&t=151s" target="_blank" rel="nofollow">Video Interview</a>)  -->
+                            </div>
+                        </td>
+                    </tr>
+                </table> 
+
+                </br></br>  
+
+                <table class="borderless">
+                    <tr>
+                        <td>
+                            <div class="large-1 columns">
+                                    <img src="img/pubs/PerDF.png" width="100">
+                            </div>
+                        </td>
+                        <td>
+                            <div class="large-12 columns", style="margin: 20px">
+                                <b>PercolationDF: A percolation-based medical diagnosis framework</b>  </br> 
+                                Jingchi Jiang, <b>Xuehui Yu</b>, Lin Y, Yi Guan*, et al. </br> 
+                                <i> Mathematical Biosciences and Engineering, 2022, 19(6): 5832-5849. </i> </br>
+                                <!-- (<a href="https://arxiv.org/abs/2107.07999" target="_blank" rel="nofollow">ArXiv</a>) -->
+                            </div>
+                        </td>
+                    </tr>
+                </table> 
+
+                </br></br> 
+
+                <table class="borderless">
+                    <tr>
+                        <td>
+                            <div class="large-1 columns">
+                                    <img src="img/pubs/ICU.png"  width="100">
+                            </div>
+                        </td>
+                        <td>
+                            <div class="large-12 columns", style="margin: 20px">
+                                <b>DECAF: An Interpretable Deep Cascading Framework for ICU Mortality Prediction</b>  </br> 
+                                Jingchi Jiang, <b>Xuehui Yu</b>, Linjiang Ma, Yi Guan*, et al.  </br> 
+                                <i>Artificial Intelligence in Medicine. </i> <font color=#189441> </br>
+                                <!-- (<a href="https://drive.google.com/file/d/1qQDeG-nQ5-XqARssY3X2YAAFwp8_n2Nq/view" target="_blank" rel="nofollow">Paper</a>) -->
+                            </div>
+                        </td>
+                    </tr>
+                </table> 
+
+                </br></br>  
+
+
+                <table class="borderless">
+                    <tr>
+                        <td>
+                            <div class="large-1 columns">
+                                    <img src="img/pubs/vd4rl.png"  width="100">
+                            </div>
+                        </td>
+                        <td>
+                            <div class="large-12 columns", style="margin: 20px">
+                                <b>Contextual Policy Transfer in Meta-Reinforcement Learning via Active Learning </b>  </br> 
+                                Jingchi Jiang, Lian Yan, <b>Xuehui Yu</b> and Yi Guan</br> 
+                                <i>19th International Conference on Web Information Systems and Applications. </i> </br>
+                                <!-- (<a href="https://arxiv.org/abs/2111.02994" target="_blank" rel="nofollow">Paper</a>) -->
+                            </div>
+                        </td>
+                    </tr>
+                </table> 
+
+                </br></br>  
+
+                <table class="borderless">
+                    <tr>
+                        <td>
+                            <div class="large-1 columns">
+                                    <img src="img/pubs/nnn.jpg"  width="100">
+                            </div>
+                        </td>
+                        <td>
+                            <div class="large-12 columns", style="margin: 20px">
+                                <b>Unified Fine-Grained Biomedical Entity Recognition as a Combination of Boundary Detection and Sequence Generation</b>  </br> 
+                                Xue Li, Yang Yang, Mingchen Ye, Yi Guan, <b>Xuehui Yu</b>, and Jingchi Jiang  </br> 
+                                <i>IEEE International Conference on Bioinformatics & Biomedicine 2023. </i> </br>
+                            </div>
+                        </td>
+                    </tr>
+                </table> 
+                </br></br>                    
+            </div>
+            </div>
+
+            <hr/>  
+
+
+        <div class="row">
+            <div class="col-sm-2">
+                <h5>Unpublished Papers</h5>
+            </div>
+            <div class="col-sm-10">    
+
+                <table class="borderless">
+                    <tr>
+                        <td>
+                            <div class="large-1 columns">
+                                    <img src="img/pubs/pic2.png"  width="100">
+                            </div>
+                        </td>
+                        <td>
+                            <div class="large-12 columns", style="margin: 20px">
+                                <b>CPMO: A Causal Prompt Model-based Offline Reinforcement Learning Framework </b>  </br> 
+                                <b>Xuehui Yu</b>, Jingchi Jiang, Rujia Shen, Yi Guan*.  </br> 
+                                <i>International Conference on Autonomous Agents and Multiagent Systems 2023. Under Review. </i> </br>
+                            </div>
+                        </td>
+                    </tr>
+                </table> 
+
+                </br></br>  
+
+            <table class="borderless">
+                    <tr>
+                        <td>
+                            <div class="large-1 columns">
+                                    <img src="img/pubs/cvga.png"  width="100">
+                            </div>
+                        </td>
+                        <td>
+                            <div class="large-12 columns", style="margin: 20px">
+                                <b>ARLPE: A Meta Reinforcement Learning Framework for Glucose Regulation in Type 1 Diabetics </b>  </br> 
+                                <b>Xuehui Yu</b>, Jingchi Jiang, Lian Yan, Shulang Li, Yi Guan*, Xuelian Fu.  </br> 
+                                <i>Expert Systems With Applications. Under Review. </i> </br>
+                            </div>
+                        </td>
+                    </tr>
+                </table> 
+
+                </br></br>  
+            </div>
+            </div>
+
+            <hr/>    
+
+
+        <div class="row">
+            <div class="col-sm-2">
+                <h5>Education</h5>
+            </div>
+            <div class="col-sm-10">
+                <table class="borderless">
+                    <tr>
+                        <td>
+                            <div class="large-1 columns">
+                                    <img src="img/work/HIT.jfif"  width="100">
+                            </div>
+                        </td>
+                        <td>
+                            <div class="large-12 columns", style="margin: 20px">
+                                <b> Harbin Institute of Technology </b> - (2019-) </br> 
+                                <i> I am currently working toward the PhD degree at the Faculty of Computing, Harbin Institute of Technology. </i>  </br> 
+                            </div>
+                        </td>
+                    </tr>
+                </table> 
+
+                </br></br>                                                                                          
+
+                <table class="borderless">
+                    <tr>
+                        <td>
+                            <div class="large-1 columns">
+                                    <img src="img/work/HEU.png"  width="100">
+                            </div>
+                        </td>
+                        <td>
+                            <div class="large-12 columns", style="margin: 20px">
+                                <b> Harbin Engineering University </b> - (2015-2019) </br>
+                                <i> I earned my bachelor’s degree in Internet of Things Engineering from College of Computer Science and Technology, Harbin Engineering University in 2019. </i>   </br> 
+                            </div>
+                        </td>
+                    </tr>
+                </table> 
+
+                </br></br>                                                                                          
+            </div> 
+
+        </div>
+
+        <hr/>
+
+
+
+        <div class="footer">
+	  <img  src="img/wi.jpg" alt="Robot" class="seal"></a>
+      <a>yuxuehui0302@gmail.com </a> <span class="sep">|</span>
+      <span style="display: inline-block; white-space: nowrap;">
+          <a href="https://scholar.google.com/citations?user=mUZEUNoAAAAJ&amp;hl=en&amp;oi=ao/"><i class="fa fa-graduation-cap" aria-hidden="true"></i></a> <span class="sep"></span>|</span>
+          <a href="https://github.com/yuxuehui"><i class="fa fa-git"></i></a> <span class="sep">
+      </span>
+	   <img src="img/wi.jpg" style="float: right" alt="NA" class="seal"></a>
+        </div>
+    </div>
+</br></br>
+</body>
+
+</html>
