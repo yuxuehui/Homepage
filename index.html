@@ -52,27 +52,27 @@
 
 I am a fourth year DPhil student at Harbin Institute of Technology, where I am part of <a href="http://wi.hit.edu.cn/" target="_blank" rel="nofollow">WI (Web Intelligence) Lab</a>, advised by <a href="https://scholar.google.com/citations?user=eApBCQYAAAAJ&hl=en" target="_blank" rel="nofollow">Yi Guan</a> and <a href="https://scholar.google.com/citations?user=mu6JYMAAAAAJ&hl=en" target="_blank" rel="nofollow">Jingchi Jiang</a>. My current research interest includes reinforcement learning (RL), medical informatics, and causal inference. 
 </br></br>
-My long-term research goal is to use RL to develop an autonomous intelligence system for the real world. I believe that good RL agents need to model how the world works first [<a href="http://www.aimspress.com/aimspress-data/mbe/2022/6/PDF/mbe-19-06-273.pdf" target="_blank" rel="nofollow">2</a>] [<a href="https://www.sciencedirect.com/science/article/pii/S0933365722001890" target="_blank" rel="nofollow">3</a>] and have strong generalization and robustness to deal with new challenges proposed by environments second [<a href="https://arxiv.org/pdf/2209.07368.pdf" target="_blank" rel="nofollow">1</a>] [<a href="" target="_blank" rel="nofollow">4</a>] [<a href="" target="_blank" rel="nofollow">6</a>] [<a href="" target="_blank" rel="nofollow">7</a>].
+My long-term research goal is to use RL to develop an autonomous intelligence system for the real world. I believe that good RL agents need to model how the world works first [<a href="http://www.aimspress.com/aimspress-data/mbe/2022/6/PDF/mbe-19-06-273.pdf" target="_blank" rel="nofollow">3</a>] [<a href="https://www.sciencedirect.com/science/article/pii/S0933365722001890" target="_blank" rel="nofollow">4</a>] and have strong generalization and robustness to deal with new challenges proposed by environments second [<a href="" target="_blank" rel="nofollow">1</a>] [<a href="https://arxiv.org/pdf/2209.07368.pdf" target="_blank" rel="nofollow">2</a>] [<a href="" target="_blank" rel="nofollow">5</a>] [<a href="" target="_blank" rel="nofollow">7</a>].
 </br></br>
 In <font color="#189441"><strong>modeling how the world works</strong></font>, we have done two research: 
 <ol>
-    <li>The world model based on <b>cascading theory</b> [<a href="http://www.aimspress.com/aimspress-data/mbe/2022/6/PDF/mbe-19-06-273.pdf" target="_blank" rel="nofollow">2</a>] [<a href="https://www.sciencedirect.com/science/article/pii/S0933365722001890" target="_blank" rel="nofollow">3</a>], which models the physiological domino effect in environment dynamics. </li>
+    <li>The world model based on <b>cascading theory</b> [<a href="http://www.aimspress.com/aimspress-data/mbe/2022/6/PDF/mbe-19-06-273.pdf" target="_blank" rel="nofollow">3</a>] [<a href="https://www.sciencedirect.com/science/article/pii/S0933365722001890" target="_blank" rel="nofollow">4</a>], which models the physiological domino effect in environment dynamics. </li>
     <li> <b>Hidden-parameter block causal graph dynamics (Hip-BCGDs)</b>, which models environment dynamics with causal prompting from pre-trained models. </br>
-    With the help of Hip-BCGDs, we proposed a novel model-based offline RL framework -- Causal Prompting Reinforcement Learning (CPRL) [<a href="" target="_blank" rel="nofollow">6</a>] , which is suitable for highly suboptimal and diverse offline datasets. CPRL is validated in simulation-based glucose-insulin systems and real-world offline datasets from Dnurse APP.
+    With the help of Hip-BCGDs, we proposed a novel model-based offline RL framework -- Causal Prompting Reinforcement Learning (CPRL) [<a href="" target="_blank" rel="nofollow">7</a>] , which is suitable for highly suboptimal and diverse offline datasets. CPRL is validated in simulation-based glucose-insulin systems and real-world offline datasets from Dnurse APP.
     </li>
 </ol>
 
 </br>
 In <font color="#189441"><strong>decision making</strong></font>: 
 <ol>
-    <li> <b>Active RL:</b> A data-efficient and robust RL agent that can use real-time collected data to generalize in online testing quickly. We proposed a meta-RL framework -- Active Reinforcement Learning with Personalized Embeddings (ARLPE) [<a href="" target="_blank" rel="nofollow">4</a>] [<a href="" target="_blank" rel="nofollow">7</a>].
+    <li> <b>Active RL:</b> A data-efficient and robust RL agent that can use real-time collected data to generalize in online testing quickly. We proposed a meta-RL framework -- Active Reinforcement Learning with Personalized Embeddings (ARLPE) [<a href="" target="_blank" rel="nofollow">1</a>] [<a href="" target="_blank" rel="nofollow">5</a>].
     </li>
-    <li> <b>Autonomous intelligence:</b> A hierarchical RL framework for self-supervised learning skills and reusing learned skills. We propose a Causal Coupled Mechanism (CCM) [<a href="https://arxiv.org/pdf/2209.07368.pdf" target="_blank" rel="nofollow">1</a>] to train a single policy to reuse skills and reach multiple goals instead of training policies for each task separately. CCM is validated in synthetic systems and a real-world biological regulatory system.
+    <li> <b>Autonomous intelligence:</b> A hierarchical RL framework for self-supervised learning skills and reusing learned skills. We propose a Causal Coupled Mechanism (CCM) [<a href="https://arxiv.org/pdf/2209.07368.pdf" target="_blank" rel="nofollow">2</a>] to train a single policy to reuse skills and reach multiple goals instead of training policies for each task separately. CCM is validated in synthetic systems and a real-world biological regulatory system.
     </li>
 </ol>
 
 </br>
-I am deploying autonomous intelligent decision models in a large-scale medical online system and real-world robots. I utilize Counterfactual Imagination-Augmented Agents to avoid unnecessary exploration in a real-world deployment.
+I am deploying autonomous intelligent decision models in a large-scale medical online system and real-world robots with the help of offline RL algorithms.
 
 </br></br>
 
@@ -139,6 +139,29 @@ I am deploying autonomous intelligent decision models in a large-scale medical o
                 <h5>Published Papers</h5>
             </div>
             <div class="col-sm-10">
+                
+                <table class="borderless">
+                    <tr>
+                        <td>
+                            <div class="large-1 columns">
+                                    <img src="img/pubs/cvga.png"  width="100">
+                            </div>
+                        </td>
+                        <td>
+                            <div class="large-12 columns", style="margin: 20px">
+                                <b>[1] ARLPE: A Meta Reinforcement Learning Framework for Glucose Regulation in Type 1 Diabetics </b>  </br> 
+                                <b>Xuehui Yu</b>, Yi Guan, Lian Yan, Shulang Li, Xuelian Fu, Jingchi Jiang*.  </br> 
+                                <i>Expert Systems With Applications. </i> </br>
+                                <i><b>Keywords:</b> Artificial pancreas, automated insulin treatment, diabetes, meta reinforcement learning, active learning. </i> </br>
+                                How to accomplish fast adaptation in the meta-testing period with limited interaction data? How to address the data distribution mismatch problem? Here are the tricks! :)  </br>
+                                <a href="https://github.com/yuxuehui/arlpe" target="_blank" rel="nofollow">Open-source Code</a> </br>
+                                <img src="img/teg-logo.png" style="vertical-align:middle;margin-right:10px" width="200"></br>
+                            </div>
+                        </td>
+                    </tr>
+                </table> 
+
+                </br></br>   
 
                 <table class="borderless">
                     <tr>
@@ -149,7 +172,7 @@ I am deploying autonomous intelligent decision models in a large-scale medical o
                         </td>
                         <td>
                             <div class="large-12 columns", style="margin: 20px">
-                                <b>[1] Causal Coupled Mechanisms: A Control Method with Cooperation and Competition for Complex System </b>  </br> 
+                                <b>[2] Causal Coupled Mechanisms: A Control Method with Cooperation and Competition for Complex System </b>  </br> 
                                 <b>Xuehui Yu</b>, Jingchi Jiang, Xinmiao Yu, Yi Guan*,Xue Li </br> 
                                 <i>The (BIBM) 2022 IEEE International Conference on Bioinformatics and Biomedicine. </i> </br>
                                 <i><b>Keywords:</b> complex system control, causal reasoning, hierarchical reinforcement learning. </i> </br>
@@ -171,7 +194,7 @@ I am deploying autonomous intelligent decision models in a large-scale medical o
                         </td>
                         <td>
                             <div class="large-12 columns", style="margin: 20px">
-                                <b>[2] PercolationDF: A percolation-based medical diagnosis framework</b>  </br> 
+                                <b>[3] PercolationDF: A percolation-based medical diagnosis framework</b>  </br> 
                                 Jingchi Jiang, <b>Xuehui Yu</b>, Lin Y, Yi Guan*, et al. </br> 
                                 <i> Mathematical Biosciences and Engineering, 2022, 19(6): 5832-5849. </i> </br>
                                 <i><b>Keywords:</b> complex networks; knowledge representation; medical diagnosis; percolation theory</i></br>
@@ -194,7 +217,7 @@ I am deploying autonomous intelligent decision models in a large-scale medical o
                         </td>
                         <td>
                             <div class="large-12 columns", style="margin: 20px">
-                                <b>[3] DECAF: An Interpretable Deep Cascading Framework for ICU Mortality Prediction</b>  </br> 
+                                <b>[4] DECAF: An Interpretable Deep Cascading Framework for ICU Mortality Prediction</b>  </br> 
                                 Jingchi Jiang, <b>Xuehui Yu</b>, Boran Wang, Linjiang Ma, Yi Guan. </br> 
                                 <i> Artificial Intelligence in Medicine (2022): 102437. </i> <font color=#189441> </br>
                                 (<a href="https://www.sciencedirect.com/science/article/pii/S0933365722001890" target="_blank" rel="nofollow">Paper</a>)
@@ -215,7 +238,7 @@ I am deploying autonomous intelligent decision models in a large-scale medical o
                         </td>
                         <td>
                             <div class="large-12 columns", style="margin: 20px">
-                                <b>[4] Contextual Policy Transfer in Meta-Reinforcement Learning via Active Learning </b>  </br> 
+                                <b>[5] Contextual Policy Transfer in Meta-Reinforcement Learning via Active Learning </b>  </br> 
                                 Jingchi Jiang, Lian Yan, <b>Xuehui Yu</b> and Yi Guan</br> 
                                 <i>19th International Conference on Web Information Systems and Applications. </i> </br>
                                 <!-- (<a href="https://arxiv.org/abs/2111.02994" target="_blank" rel="nofollow">Paper</a>) -->
@@ -235,14 +258,16 @@ I am deploying autonomous intelligent decision models in a large-scale medical o
                         </td>
                         <td>
                             <div class="large-12 columns", style="margin: 20px">
-                                <b>[5] Unified Fine-Grained Biomedical Entity Recognition as a Combination of Boundary Detection and Sequence Generation</b>  </br> 
+                                <b>[6] Unified Fine-Grained Biomedical Entity Recognition as a Combination of Boundary Detection and Sequence Generation</b>  </br> 
                                 Xue Li, Yang Yang, Mingchen Ye, Yi Guan, <b>Xuehui Yu</b>, and Jingchi Jiang  </br> 
                                 <i>The (BIBM) 2022 IEEE International Conference on Bioinformatics and Biomedicine. </i> </br>
                             </div>
                         </td>
                     </tr>
                 </table> 
-                </br></br>                    
+                </br></br>  
+
+                               
             </div>
             </div>
 
@@ -264,7 +289,7 @@ I am deploying autonomous intelligent decision models in a large-scale medical o
                         </td>
                         <td>
                             <div class="large-12 columns", style="margin: 20px">
-                                <b>[6] Causal Prompting Model-based Offline Reinforcement Learning </b>  </br> 
+                                <b>[7] Causal Prompting Model-based Offline Reinforcement Learning </b>  </br> 
                                 <b>Xuehui Yu</b>, Yi Guan, Rujia Shen, Chen Tang and Jingchi Jiang*.  </br> 
                                 <i>International Conference on Autonomous Agents and Multiagent Systems 2023. Under Review. </i> </br>
                                 <i><b>Keywords:</b> Reinforcement learning, Model-based offline reinforcement learning, Causal, Prompt.</i> </br>
@@ -272,29 +297,6 @@ I am deploying autonomous intelligent decision models in a large-scale medical o
                                 <font color="#189441"><strong>A medical benchmark is being built!</strong></font> A decision model can be trained in either supervised learning or offline reinforcement learning in the benchmark. </br>
                                 <span><i><b>Partner: Beijing Dnurse Technology Company  </b></i></span>
                              <img src="img/dnurse_co.png" style="vertical-align:middle;margin-right:10px" width="90"></br>
-                            </div>
-                        </td>
-                    </tr>
-                </table> 
-
-                </br></br>  
-
-            <table class="borderless">
-                    <tr>
-                        <td>
-                            <div class="large-1 columns">
-                                    <img src="img/pubs/cvga.png"  width="100">
-                            </div>
-                        </td>
-                        <td>
-                            <div class="large-12 columns", style="margin: 20px">
-                                <b>[7] ARLPE: A Meta Reinforcement Learning Framework for Glucose Regulation in Type 1 Diabetics </b>  </br> 
-                                <b>Xuehui Yu</b>, Jingchi Jiang, Lian Yan, Shulang Li, Yi Guan*, Xuelian Fu.  </br> 
-                                <i>Expert Systems With Applications. Second Review. </i> </br>
-                                <i><b>Keywords:</b> Artificial pancreas, automated insulin treatment, diabetes, meta reinforcement learning, active learning. </i> </br>
-                                How to accomplish fast adaptation in the meta-testing period with limited interaction data? How to address the data distribution mismatch problem? Here are the tricks! :)  </br>
-                                <a href="https://github.com/yuxuehui/arlpe" target="_blank" rel="nofollow">Open-source Code</a> </br>
-                                <img src="img/teg-logo.png" style="vertical-align:middle;margin-right:10px" width="200"></br>
                             </div>
                         </td>
                     </tr>
