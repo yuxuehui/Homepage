@@ -9,13 +9,13 @@ h1 {
     text-align: center;
 }
 h1 small {
-    font-size: 18px;
+    font-size: 18px !important;
     float: right;
     padding-top: 15px;
     line-height: 1.8em; 
 }
 h1 small i {
-    font-size: 18px;
+    font-size: 18px !important;
 }
 h2 {
    font-size: 36px;
