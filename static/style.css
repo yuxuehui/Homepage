@@ -9,10 +9,13 @@ h1 {
     text-align: center;
 }
 h1 small {
-    font-size: 14px;
+    font-size: 18px;
     float: right;
     padding-top: 15px;
     line-height: 1.8em; 
+}
+h1 small i {
+    font-size: 18px;
 }
 h2 {
    font-size: 36px;
@@ -88,17 +91,16 @@ b {
     color: #999; 
     font-family: Lato; 
     font-weight: 300; 
-    font-size: 12px; 
+    font-size: 20px; 
+}
+.footer i {
+    font-size: 22px;
 }
 @media (min-width: 768px) { 
     .container { 
         margin-top: 50px; 
     } 
 }
-
-p {
-}
-
 
 img.headshot {
     width:170px;
@@ -109,11 +111,11 @@ img.headshot {
 a.pub_img {
     margin-top: auto;
     margin-bottom: auto;
-    min-width: 80px; !important;
-    max-width: 80px; !important;
-    min-height: 80px; !important;
-    max-height: 80px; !important;
-    margin-right: 20px; !important;
+    min-width: 80px;
+    max-width: 80px;
+    min-height: 80px;
+    max-height: 80px;
+    margin-right: 20px;
 }
 
 img.pub_img {
