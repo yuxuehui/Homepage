@@ -1,6 +1,7 @@
-body { 
-    font-family: "Open Sans"; 
+body {
+    font-family: "Open Sans";
     font-size: 18px;
+    margin: 0;
 }
 h1 { 
     font-family: Lato;
@@ -132,5 +133,64 @@ img.seal {
 
 img.blogimg {
     width: 100%;
+}
+
+.site-nav-bar {
+    width: 100%;
+    background: #fff;
+    border-bottom: 1px solid #f2f3f3;
+    position: sticky;
+    top: 0;
+    z-index: 20;
+}
+.site-nav-inner {
+    max-width: 970px;
+    margin: 0 auto;
+    padding: 12px 15px;
+    text-align: left;
+}
+.site-nav-inner a {
+    font-family: Lato;
+    font-weight: 600;
+    font-size: 18px;
+    color: #6f777d;
+    text-decoration: none;
+    padding: 8px 15px;
+    display: inline-block;
+}
+.site-nav-inner a:hover {
+    color: #000;
+    text-decoration: none;
+}
+.site-nav-inner a:first-child {
+    padding-left: 0;
+}
+.site-nav-inner a.active {
+    color: #000;
+}
+
+.pub-media {
+    width: 280px;
+    height: 180px;
+    object-fit: contain;
+    display: block;
+    margin: auto;
+}
+
+.pub-media-lg {
+    width: 420px;
+    height: 270px;
+    object-fit: contain;
+    display: block;
+    margin: auto;
+}
+
+.painting-img {
+    height: 240px;
+    width: auto;
+    display: inline-block;
+    margin: 5px;
+    vertical-align: top;
+    border-radius: 3px;
 }
 

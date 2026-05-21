@@ -1,0 +1,295 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Global Site Tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-107224691-1"></script>
+    <script>
+       window.dataLayer = window.dataLayer || [];
+       function gtag(){dataLayer.push(arguments)};
+       gtag('js', new Date());
+
+       gtag('config', 'UA-107224691-1');
+    </script>
+
+    <title>Research | Xuehui Yu</title>
+
+    <!-- Credit to Reid Pryzant from Stanford for the website design... I largely plagiarized his work! -->
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge"><![endif]-->
+    <script type="text/javascript" src="https://use.fontawesome.com/981e0eb420.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link href='https://fonts.googleapis.com/css?family=Lato:300,400,700,900%7COpen+Sans:400,600' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="./static/style.css" />
+
+    <link rel="shortcut icon" href="./img/favicon.ico" >
+</head>
+
+
+<body>
+    <div class="site-nav-bar">
+        <div class="site-nav-inner">
+            <a href="index.html">Home</a>
+            <a href="research.html" class="active">Research</a>
+            <a href="talks.html">Talks</a>
+            <a href="random.html">Random</a>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+    	      <img src="img/yuxuehui-portrait.JPG" alt="JPH :)" class="headshot" >
+    	      <br/>
+                    <h1>Xuehui Yu
+                        <small>
+                            <a>yuxuehui0302@gmail.com </a> <span class="sep">|</span>
+                            <span style="display: inline-block; white-space: nowrap;">
+                                <!-- <a href="mailto:yuxuehui0302@gmail.com"><i class="fa fa-envelope" aria-hidden="true"></i></a> <span class="sep"><span class="sep">|</span> -->
+                                <a href="https://www.linkedin.com/in/yuxuehui"><i class="fa fa-linkedin" aria-hidden="true"></i></a><span class="sep"><span class="sep">|</span>
+                                <a href="https://x.com/xuehui_yu"><i class="fa fa-twitter" aria-hidden="true"></i></a><span class="sep"><span class="sep">|</span>
+                                <a href="https://scholar.google.com/citations?user=mUZEUNoAAAAJ&amp;hl=en&amp;oi=ao/"><i class="fa fa-graduation-cap" aria-hidden="true"></i></a><span class="sep"><span class="sep">|</span>
+                                <a href="https://github.com/yuxuehui"><i class="fa fa-git"></i></a> <span class="sep">
+                            </span>
+                        </small>
+                    </h1>
+            </div>
+        </div>
+        <hr/>
+
+        <div class="row">
+            <div class="col-sm-12">
+                <h5>Selected Publication</h5>
+                <p><i style="font-size: 16px; color: #777;">*, &dagger; indicate equal contributions.</i></p>
+                <table class="borderless">
+                    <tr>
+                        <td>
+                            <div class="large-1 columns">
+                                    <img src="img/pubs/car_guidance.gif" class="pub-media-lg" onclick="window.open('img/pubs/car_guidance.mp4', '_blank')" style="cursor: pointer;" title="Click to watch the full CAR guidance video">
+                            </div>
+                        </td>
+                        <td>
+                            <div class="large-12 columns", style="margin: 20px">
+                                <b>[1] Conflict-Aware Additive Guidance for Flow Models under Compositional Rewards </b>  </br>
+                                <b>Xuehui Yu</b>, Fucheng Cai, Meiyi Wang, Xiaopeng Fan, Harold Soh  </br>
+                                <i><b> ICML, 2026.  </b> </i> </br>
+                                <!-- <i>Keywords: inference-time guidance, flow models, diffusion models, compositional rewards, on-manifold generation.</i> </br> -->
+                                &#10067; How do we harness complex pretrained generative priors to satisfy multiple constraints at inference time without hallucinated generation? Check out our CAR guidance, a plug-and-play module that corrects off-manifold drift on the fly. </br>
+                                &#128161; Key insight: in compositional reward settings, the approximation error grows sharply with gradient misalignment (1 − cos φ) and the number of reward functions G, where φ is the average angular divergence between guidance channels.</br>
+                                <a href="https://github.com/yuxuehui/CAR-guidance" target="_blank" rel="nofollow"> Code</a> <span class="sep">|</span> <a href="https://arxiv.org/abs/2605.20758" target="_blank" rel="nofollow">Paper</a> </br>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+                <table class="borderless">
+                    <tr>
+                        <td>
+                            <div class="large-1 columns">
+                                    <img src="img/pubs/shared_control.png"  class="pub-media">
+                            </div>
+                        </td>
+                        <td>
+                            <div class="large-12 columns", style="margin: 20px">
+                                <b>[2] Shared Control/Autonomy: A Historical Perspective, Current Trends, and the Role of Generative AI </b>  </br>
+                                Michael Hagenow, Mario Selvaggio, <b>Xuehui Yu</b>, Yanwei Wang, Yiannis Demiris, Andreea Bobu, Yilun Du, Harold Soh, Dylan Losey, Julie Shah  </br>
+                                <i> Authorea Preprints, 2025. </i> </br>
+                                &#128680; Our new survey examines recent trends in shared control/autonomy (SC/SA), including the growing role of generative AI. We also introduce a human-centered taxonomy for classifying SC/SA methods.</br>
+                                <a href="https://wisc-rt2.github.io/shared_control_autonomy_survey/" target="_blank" rel="nofollow"> Website</a> <span class="sep">|</span> <a href="https://www.techrxiv.org/doi/full/10.36227/techrxiv.176617724.41163595/v1" target="_blank" rel="nofollow">Paper</a> </br>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+                <table class="borderless">
+                    <tr>
+                        <td>
+                            <div class="large-1 columns">
+                                    <video src="img/pubs/SaMI_Recording.mp4" class="pub-media-lg" autoplay loop muted playsinline onclick="window.open('img/pubs/SaMI_Recording.mp4', '_blank')" style="cursor: pointer;" title="Click to watch the full SaMI video"></video>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="large-12 columns", style="margin: 20px">
+                                <b>[3] Skill-aware Mutual Information Optimisation for Generalisation in Reinforcement Learning </b>  </br>
+                                <b>Xuehui Yu</b>, Mhairi Dunion, Xin Li, Stefano V Albrecht  </br>
+                                <i><b> NeurIPS, 2024.  </b> </i> </br>
+                                <i>Keywords: contrastive learning, RL, meta RL, zero-shot generalisation.</i> </br>
+                                &#10067; How to build general robots capable of seamlessly operating in any environment, with any object, and utilising various skills?
+                                With our SaMI learning objective, RL agents are incentivised to become versatile and zero-shot generalise across infinite tasks </br>
+                                &#128161; Generalisation starts with corrective behaviors. The ability to correct and try again is likely a key ingredient.</br>
+                                <a href="https://github.com/uoe-agents/SaMI" target="_blank" rel="nofollow"> Code</a> <span class="sep">|</span> <a href="https://arxiv.org/pdf/2406.04815" target="_blank" rel="nofollow">Paper</a> <span class="sep">|</span> <a href="https://github.com/uoe-agents/Skill-aware-Panda-gym" target="_blank" rel="nofollow"> Our benchmark: Sa-Panda-gym</a> <span class="sep">|</span> <a href="https://recorder-v3.slideslive.com/?share=96779&s=cffc27e8-d386-41fb-8ab6-fe82a11990e3" target="_blank" rel="nofollow"> SlidesLive demo video </a> </br>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+                <table class="borderless">
+                    <tr>
+                        <td>
+                            <div class="large-1 columns">
+                                    <img src="img/pubs/causal_discovery.png"  class="pub-media">
+                            </div>
+                        </td>
+                        <td>
+                            <div class="large-12 columns", style="margin: 20px">
+                                <b>[4] Causal discovery based on hierarchical reinforcement learning </b>  </br>
+                                Jingchi Jiang, Rujia Shen, Chao Zhao, Yi Guan, <b>Xuehui Yu</b>*, Xuelian Fu  </br>
+                                <i> Expert Systems with Applications, 2025. </i> </br>
+                                A hierarchical RL framework (CD-HRL) that splits causal discovery into causal-skeleton learning and edge-direction identification via interdependent high- and low-level policies, improving exploration efficiency on high-dimensional data.</br>
+                                <a href="https://www.sciencedirect.com/science/article/abs/pii/S0957417425010887" target="_blank" rel="nofollow">Paper</a> </br>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+                <table class="borderless">
+                    <tr>
+                        <td>
+                            <div class="large-1 columns">
+                                    <img src="img/pubs/food_recommendation.png"  class="pub-media">
+                            </div>
+                        </td>
+                        <td>
+                            <div class="large-12 columns", style="margin: 20px">
+                                <b>[5] An interactive food recommendation system using reinforcement learning</b>  </br>
+                                Liangliang Liu, Yi Guan, Zi Wang, Rujia Shen, Guowei Zheng, Xuelian Fu, <b>Xuehui Yu</b>*, Jingchi Jiang</br>
+                                <i> Expert Systems with Applications, 2024. </i> </br>
+                                <i>Keywords: food recommender systems, RL, collaborative filtering, cross attention, state representation</i></br>
+                                <a href="https://www.sciencedirect.com/science/article/pii/S0957417424011795" target="_blank" rel="nofollow">Paper</a><span class="sep">|</span> <a href="https://apps.apple.com/cn/app/wi%E5%81%A5%E5%BA%B7%E7%AE%A1%E7%90%86/id6450258142" target="_blank" rel="nofollow">WI Healthcare APP</a>  </br>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+                <table class="borderless">
+                    <tr>
+                        <td>
+                            <div class="large-1 columns">
+                                    <img src="img/pubs/ARLPE.png"  class="pub-media">
+                            </div>
+                        </td>
+                        <td>
+                            <div class="large-12 columns", style="margin: 20px">
+                                <b>[6] ARLPE: A Meta Reinforcement Learning Framework for Glucose Regulation in Type 1 Diabetics </b>  </br>
+                                <b>Xuehui Yu</b>, Yi Guan, Lian Yan, Shulang Li, Xuelian Fu, Jingchi Jiang  </br>
+                                <i> Expert Systems with Applications, 2023. </i> </br>
+                                <i>Keywords: meta-RL, active learning, fast online adaptation, RL generalisation. </i> </br>
+                                &#10067; How can rapid adaptation be achieved with extremely limited data in an online deployment? Employ &ldquo;optimistic exploration&rdquo; through active RL! </br>
+                                &#128137; A RL-based closed-loop control method for artificial pancreas systems, enabling automatic medication infusion via pump control for diverse, previously unseen clinical patients.</br>
+                                <a href="https://github.com/yuxuehui/arlpe" target="_blank" rel="nofollow"> Code</a> <span class="sep">|</span> <a href="https://www.sciencedirect.com/science/article/abs/pii/S0957417423006589" target="_blank" rel="nofollow">Paper</a><span class="sep">|</span> <a href="https://apps.apple.com/cn/app/wi%E5%81%A5%E5%BA%B7%E7%AE%A1%E7%90%86/id6450258142" target="_blank" rel="nofollow">WI Healthcare APP</a></br>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+                <table class="borderless">
+                    <tr>
+                        <td>
+                            <div class="large-1 columns">
+                                    <img src="img/pubs/ICU.png"  class="pub-media">
+                            </div>
+                        </td>
+                        <td>
+                            <div class="large-12 columns", style="margin: 20px">
+                                <b>[7] DECAF: An Interpretable Deep Cascading Framework for ICU Mortality Prediction</b>  </br>
+                                Jingchi Jiang, <b>Xuehui Yu</b>&dagger;, Boran Wang, Linjiang Ma, Yi Guan</br>
+                                <i> Artificial Intelligence in Medicine, 2023. </i>  </br>
+                                <i>Keywords: graph attention networks, spatio-temporal forecasting, interpretability, mortality prediction.</i></br>
+                                The dynamic model based on cascading theory, which models the physiological domino effect in environment dynamics; Increasing similarity between training and testing for generalisation in class-imbalanced datasets.</br>
+                                <a href="https://www.sciencedirect.com/science/article/pii/S0933365722001890" target="_blank" rel="nofollow">Paper</a>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+                <table class="borderless">
+                    <tr>
+                        <td>
+                            <div class="large-1 columns">
+                                    <img src="img/pubs/CCM.png"  class="pub-media">
+                            </div>
+                        </td>
+                        <td>
+                            <div class="large-12 columns", style="margin: 20px">
+                                <b>[8] Causal Coupled Mechanisms: A Control Method with Cooperation and Competition for Complex System </b>  </br>
+                                <b>Xuehui Yu</b>, Jingchi Jiang, Xinmiao Yu, Yi Guan, Xue Li </br>
+                                <i>IEEE BIBM, 2022. </i> </br>
+                                <i>Keywords: hierarchical RL, transfer learning, skill composition, RL generalisation. </i> </br>
+                                &#128161; Using inductive biases to encourage or ensure the model does not rely on features that we expect to change: The policy should only rely on features which will behave similarly in both the training and testing environments.</br>
+                                <a href="https://www.computer.org/csdl/proceedings-article/bibm/2022/09995255/1JC2lEoQeaY" target="_blank" rel="nofollow">Paper</a></br>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+                <table class="borderless">
+                    <tr>
+                        <td>
+                            <div class="large-1 columns">
+                                    <img src="img/pubs/medical_diagnosis.jpg" class="pub-media">
+                            </div>
+                        </td>
+                        <td>
+                            <div class="large-12 columns", style="margin: 20px">
+                                <b>[9] PercolationDF: A percolation-based medical diagnosis framework</b>  </br>
+                                Jingchi Jiang, <b>Xuehui Yu</b>&dagger;, Yi Lin, Yi Guan </br>
+                                <i> Mathematical Biosciences and Engineering, 2022. </i> </br>
+                                <i>Keywords: medical diagnosis, knowledge representation.</i></br>
+                                The dynamic model based on cascading theory, which models the physiological domino effect in environment dynamics; Increasing similarity between training and testing for generalisation in class-imbalanced datasets. </br>
+                                <a href="https://pubmed.ncbi.nlm.nih.gov/35603381/" target="_blank" rel="nofollow">Paper</a></br>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+
+                <!-- <table class="borderless">
+                    <tr>
+                        <td>
+                            <div class="large-1 columns">
+                                    <img src="img/pubs/vd4rl.png"  class="pub-media">
+                            </div>
+                        </td>
+                        <td>
+                            <div class="large-12 columns", style="margin: 20px">
+                                <b>[10] Contextual Policy Transfer in Meta-Reinforcement Learning via Active Learning </b>  </br>
+                                Jingchi Jiang, Lian Yan, <b>Xuehui Yu</b> and Yi Guan</br>
+                                <i> International Conference on Web Information Systems and Applications, 2022. </i> </br>
+                                <i>Keywords: meta-RL, active learning, fast online adaptation, RL generalisation. </i> </br>
+                                <a href="https://link.springer.com/chapter/10.1007/978-3-031-20309-1_31" target="_blank" rel="nofollow">Paper</a>  </br>
+                            </div>
+                        </td>
+                    </tr>
+                </table>  -->
+
+                <!-- <table class="borderless">
+                    <tr>
+                        <td>
+                            <div class="large-1 columns">
+                                    <img src="img/pubs/nnn.png"  class="pub-media">
+                            </div>
+                        </td>
+                        <td>
+                            <div class="large-12 columns", style="margin: 20px">
+                                <b>[11] Unified Fine-Grained Biomedical Entity Recognition as a Combination of Boundary Detection and Sequence Generation</b>  </br>
+                                Xue Li, Yang Yang, Mingchen Ye, Yi Guan, <b>Xuehui Yu</b>, and Jingchi Jiang  </br>
+                                <i>IEEE BIBM, 2022. </i> </br>
+                                <a href="https://ieeexplore.ieee.org/document/9995683" target="_blank" rel="nofollow">Paper</a>  </br>
+                            </div>
+                        </td>
+                    </tr>
+                </table>  -->
+
+            </div>
+            </div>
+
+        <hr/>
+
+        <div class="footer">
+      <span style="display: inline-block; white-space: nowrap;">
+          <a href="mailto:yuxuehui0302@gmail.com"><i class="fa fa-envelope" aria-hidden="true"></i></a> <span class="sep"><span class="sep">|</span>
+          <a href="https://www.linkedin.com/in/yuxuehui"><i class="fa fa-linkedin" aria-hidden="true"></i></a><span class="sep"><span class="sep">|</span>
+          <a href="https://x.com/xuehui_yu"><i class="fa fa-twitter" aria-hidden="true"></i></a><span class="sep"><span class="sep">|</span>
+          <a href="https://scholar.google.com/citations?user=mUZEUNoAAAAJ&amp;hl=en&amp;oi=ao/"><i class="fa fa-graduation-cap" aria-hidden="true"></i></a><span class="sep"><span class="sep">|</span>
+          <a href="https://github.com/yuxuehui"><i class="fa fa-git"></i></a> <span class="sep">
+      </span>
+        </div>
+    </div>
+</br></br>
+
+
+</body>
+
+</html>
