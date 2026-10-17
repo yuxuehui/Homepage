@@ -247,76 +247,7 @@ img.blogimg {
     margin-bottom: 10px;
 }
 
-.dnr-home-feature {
-    display: flex;
-    align-items: center;
-    gap: 20px;
-    margin: 20px 0;
-    padding: 16px;
-    border: 1px solid #e4eaea;
-    border-radius: 6px;
-    color: #263b46;
-    background: #fff;
-    transition: border-color .15s ease;
-}
-
-.dnr-home-feature:hover,
-.dnr-home-feature:focus {
-    color: #263b46;
-    text-decoration: none;
-    border-color: #117e78;
-}
-
-.dnr-home-feature img {
-    width: 42%;
-    height: auto;
-    margin: 0;
-}
-
-.dnr-home-feature-copy {
-    display: flex;
-    flex: 1;
-    flex-direction: column;
-    gap: 5px;
-    font-size: 14px;
-    line-height: 1.5;
-}
-
-.dnr-home-feature-copy strong {
-    font-size: 18px;
-}
-
-.dnr-feature-label {
-    color: #117e78;
-    font-size: 11px;
-    font-weight: 600;
-    letter-spacing: .06em;
-}
-
-.dnr-feature-watch {
-    color: #117e78;
-    font-weight: 600;
-    margin-top: 5px;
-}
-
-.dnr-feature-time {
-    margin-left: 8px;
-    color: #777;
-    font-size: 12px;
-    font-weight: 400;
-}
-
 @media (max-width: 600px) {
-    .dnr-home-feature {
-        flex-direction: column;
-        align-items: stretch;
-        gap: 12px;
-    }
-
-    .dnr-home-feature img {
-        width: 100%;
-    }
-
     .dnr-video figcaption {
         font-size: 13px;
     }
