@@ -68,30 +68,35 @@
         <hr/>
 
         <div class="row">
-            <div class="col-sm-12">
+            <div class="col-sm-12 publication-list">
                 <h5>Selected Publication</h5>
                 <p><i style="font-size: 16px; color: #777;">*, &dagger; indicate equal contributions.</i></p>
-                <table class="borderless" id="divide-and-remember">
-                    <tr>
-                        <td>
-                            <div class="large-1 columns">
-                                <a href="https://dnr-memory.github.io/" target="_blank" rel="noopener noreferrer">
-                                    <img src="img/pubs/dnr_teaser.png" class="pub-media-lg" alt="Divide-and-Remember selects action-relevant visual memories to guide a robot through history-dependent tasks.">
-                                </a>
-                            </div>
-                        </td>
-                        <td>
-                            <div class="large-12 columns publication-details" style="margin: 20px">
-                                <b>[1] Divide-and-Remember: Recursive Action-Relevant Memory for Long-Horizon VLA Policies</b><br>
-                                <b>Xuehui Yu</b>, Eason Yu, Meiyi Wang, Haozhe Du, Stefano V. Albrecht, Harold Soh<br>
-                                <i>arXiv preprint, 2026.</i><br>
-                                &#10067; What should a robot remember when its current observation is not enough to decide how to act? D&amp;R learns to retain the action-relevant information from its history.<br>
-                                &#128161; A shared, lightweight selector recursively compresses long histories into a fixed memory budget, trained end-to-end through the policy&rsquo;s action loss. With only 64 memory tokens, D&amp;R achieves state-of-the-art average success on RoboMME, with gains across all four task suites and in real-robot experiments.<br>
-                                <a href="https://dnr-memory.github.io/" target="_blank" rel="noopener noreferrer">Website</a> <span class="sep">|</span> <a href="https://arxiv.org/abs/2610.00982" target="_blank" rel="noopener noreferrer">Paper</a><br>
-                            </div>
-                        </td>
-                    </tr>
-                </table>
+                <article class="dnr-publication" id="divide-and-remember" aria-labelledby="dnr-title">
+                    <figure class="dnr-video" id="dnr-video">
+                        <video controls playsinline preload="metadata" width="1920" height="1080"
+                            poster="img/pubs/dnr_overview_poster.png"
+                            aria-label="Divide-and-Remember project overview, with English text and no audio">
+                            <source src="img/pubs/dnr_overview.mp4" type="video/mp4">
+                            <a href="img/pubs/dnr_overview.mp4">Watch the Divide-and-Remember video</a>.
+                        </video>
+                        <figcaption>
+                            <span><b>Long-horizon memory. Just 64 memory tokens.</b></span>
+                            <span class="dnr-video-duration">1:26 &middot; Project overview</span>
+                        </figcaption>
+                    </figure>
+                    <div class="dnr-publication-details">
+                        <div class="dnr-publication-heading">
+                            <b id="dnr-title">[1] Divide-and-Remember: Recursive Action-Relevant Memory for Long-Horizon VLA Policies</b><br>
+                            <b>Xuehui Yu</b>, Eason Yu, Meiyi Wang, Haozhe Du, Stefano V. Albrecht, Harold Soh<br>
+                            <i>arXiv preprint, 2026.</i>
+                        </div>
+                        <div class="dnr-publication-description">
+                            <p>&#10067; Vision-language-action (VLA) models are often memoryless, yet long-horizon tasks require them to retain and reuse information from the past. Existing memory methods deliver inconsistent gains across tasks. We therefore ask: <b>what is the optimal formulation of memory?</b></p>
+                            <p>&#128161; We formulate memory as an optimization problem and propose <b>Divide-and-Remember (D&amp;R)</b>, a recursive memory retrieval method that learns what to remember end-to-end, using just <b>64 memory tokens</b>.</p>
+                            <a href="https://dnr-memory.github.io/" target="_blank" rel="noopener noreferrer">Website</a> <span class="sep">|</span> <a href="https://arxiv.org/abs/2610.00982" target="_blank" rel="noopener noreferrer">Paper</a>
+                        </div>
+                    </div>
+                </article>
                 <table class="borderless">
                     <tr>
                         <td>

@@ -195,25 +195,154 @@ img.blogimg {
 }
 
 
-#divide-and-remember {
-    scroll-margin-top: 80px;
+#divide-and-remember,
+#dnr-video {
+    scroll-margin-top: 84px;
 }
 
-@media (max-width: 991px) {
-    #divide-and-remember,
-    #divide-and-remember tbody,
-    #divide-and-remember tr,
-    #divide-and-remember td {
+.dnr-publication {
+    display: grid;
+    grid-template-columns: minmax(0, 44%) minmax(0, 1fr);
+    align-items: center;
+    gap: 24px;
+    margin: 24px 0 32px;
+    padding-bottom: 28px;
+    border-bottom: 1px solid #edf0f1;
+}
+
+.dnr-publication-heading {
+    line-height: 1.65;
+    margin-bottom: 18px;
+}
+
+.dnr-video {
+    margin: 0;
+}
+
+.dnr-video video {
+    display: block;
+    width: 100%;
+    height: auto;
+    aspect-ratio: 16 / 9;
+    background: #fff;
+    border: 1px solid #e4eaea;
+    border-radius: 6px;
+}
+
+.dnr-video figcaption {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 6px 18px;
+    padding-top: 10px;
+    color: #117e78;
+    font-size: 14px;
+}
+
+.dnr-video-duration {
+    color: #777;
+}
+
+.dnr-publication-description p {
+    margin-bottom: 10px;
+}
+
+.dnr-home-feature {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin: 20px 0;
+    padding: 16px;
+    border: 1px solid #e4eaea;
+    border-radius: 6px;
+    color: #263b46;
+    background: #fff;
+    transition: border-color .15s ease;
+}
+
+.dnr-home-feature:hover,
+.dnr-home-feature:focus {
+    color: #263b46;
+    text-decoration: none;
+    border-color: #117e78;
+}
+
+.dnr-home-feature img {
+    width: 42%;
+    height: auto;
+    margin: 0;
+}
+
+.dnr-home-feature-copy {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    gap: 5px;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.dnr-home-feature-copy strong {
+    font-size: 18px;
+}
+
+.dnr-feature-label {
+    color: #117e78;
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: .06em;
+}
+
+.dnr-feature-watch {
+    color: #117e78;
+    font-weight: 600;
+    margin-top: 5px;
+}
+
+.dnr-feature-time {
+    margin-left: 8px;
+    color: #777;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+@media (max-width: 600px) {
+    .dnr-home-feature {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 12px;
+    }
+
+    .dnr-home-feature img {
+        width: 100%;
+    }
+
+    .dnr-video figcaption {
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 767px) {
+    .dnr-publication {
+        grid-template-columns: minmax(0, 1fr);
+        gap: 20px;
+    }
+
+    .publication-list > table,
+    .publication-list > table > tbody,
+    .publication-list > table > tbody > tr,
+    .publication-list > table > tbody > tr > td {
         display: block;
         width: 100%;
     }
 
-    #divide-and-remember .pub-media-lg {
+    .publication-list .pub-media,
+    .publication-list .pub-media-lg {
         max-width: 100%;
         height: auto;
     }
 
-    #divide-and-remember .publication-details {
+    .publication-list .large-12.columns {
         margin: 20px 0 !important;
     }
 }
