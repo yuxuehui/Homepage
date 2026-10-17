@@ -199,7 +199,7 @@ img.blogimg {
     scroll-margin-top: 80px;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 991px) {
     #divide-and-remember,
     #divide-and-remember tbody,
     #divide-and-remember tr,
