@@ -194,3 +194,26 @@ img.blogimg {
     border-radius: 3px;
 }
 
+
+#divide-and-remember {
+    scroll-margin-top: 80px;
+}
+
+@media (max-width: 767px) {
+    #divide-and-remember,
+    #divide-and-remember tbody,
+    #divide-and-remember tr,
+    #divide-and-remember td {
+        display: block;
+        width: 100%;
+    }
+
+    #divide-and-remember .pub-media-lg {
+        max-width: 100%;
+        height: auto;
+    }
+
+    #divide-and-remember .publication-details {
+        margin: 20px 0 !important;
+    }
+}
